@@ -1,6 +1,6 @@
 # BIP39 Mnemonic Builder
 
-This tool allows you to generate and customize BIP39 mnemonic seed phrases used for creating and/or recovering a Bitcoin deterministic wallet.
+This tool allows you to generate and customize BIP39 mnemonic seed phrases used for creating and/or recovering a Groestlcoin deterministic wallet.
 
 ## Background
 
@@ -11,12 +11,6 @@ The standard way of producing the mnemonic is to generate a random string of dat
 This tool can generate random mnemonics via the browser's built-in [random number generator](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues), or by accepting an arbitrary string of text, and using the SHA-256 hash as the entropy source.
 
 In addition, this tool allows you to invert the process by choosing individual words, and concatenating the indexes together. Since the last part of the data is a checksum, there are limited valid choices for the last word, but all other words can be freely selected.
-
-## Motiviation
-
-This project was born mostly out of curiosity. I was intrigued by the concept of a [brain wallet](https://en.bitcoin.it/wiki/Brainwallet), where Bitcoin is held exclusively in your own memory. For this case, you want to use a secret code that you won't forget, but is also sufficiently difficult to guess. This led me down the rabbit hole of researching how the phrase is generated, and then building this tool to help visualize how it works. 
-
-It should be pointed out that brain wallets are extremely risky, given the human memory can fail in many ways. They should only be used as a last resort or for small amounts of funds you wouldn't mind losing. It is important to have multiple backups, memorization being one form of backup.
 
 ## How to use
 
