@@ -402,7 +402,7 @@ class App extends React.Component {
                     <title>BIP39 Mnemonic Builder</title>
                     <meta
                         name="description"
-                        content="Create a BIP39 custom recovery seed phrase for your bitcoin wallet."
+                        content="Create a BIP39 custom recovery seed phrase for your groestlcoin wallet."
                     ></meta>
                 </Helmet>
                 <Title>BIP39 Mnemonic Builder</Title>
