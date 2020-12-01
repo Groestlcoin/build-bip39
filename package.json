@@ -69,9 +69,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikeygee/bip39"
+    "url": "https://github.com/groestlcoin/build-bip39"
   },
   "bugs": {
-    "url": "https://github.com/mikeygee/bip39/issues"
+    "url": "https://github.com/groestlcoin/build-bip39/issues"
   }
 }

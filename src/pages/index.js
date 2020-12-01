@@ -480,7 +480,7 @@ class App extends React.Component {
                 ) : null}
                 <CenteredRow>
                     <a
-                        href="https://github.com/mikeygee/bip39"
+                        href="https://github.com/groestlcoin/build-bip39"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
